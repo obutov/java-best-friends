@@ -34,7 +34,7 @@ public class BestFriends {
         
         friendsDictionary = new Hashtable();
         
-        // build friends dictionary
+        // build friends dictionary from inputs
         for (int i=0; i < from.length; i++){
             int friendKey = from[i];
             List bestFriends = friendsDictionary.get(friendKey);
